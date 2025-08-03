@@ -11,4 +11,4 @@ public class ExpoApplicationLifecycleListener implements ApplicationLifecycleLis
         this.voiceApplicationProxy = new VoiceApplicationProxy(application);
         this.voiceApplicationProxy.onCreate();
     }
-}dd
+}

@@ -72,8 +72,8 @@
     "eslint": "^7.2.0",
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-prettier": "^3.1.3",
-    "express": "^4.19.2",
     "expo": "^53.0.0",
+    "express": "^4.19.2",
     "husky": "^4.2.5",
     "jest": "^28.1.3",
     "metro-react-native-babel-preset": "0.76.8",
@@ -87,9 +87,9 @@
     "typescript": "^4.1.3"
   },
   "peerDependencies": {
+    "expo": ">=53.0.0",
     "react": "*",
-    "react-native": "*",
-    "expo": ">=53.0.0"
+    "react-native": "*"
   },
   "jest": {
     "preset": "react-native",
@@ -159,6 +159,7 @@
   },
   "dependencies": {
     "@twilio/voice-errors": "1.8.0",
-    "eventemitter3": "^4.0.7"
+    "eventemitter3": "^4.0.7",
+    "expo-modules-core": "^2.5.0"
   }
 }
